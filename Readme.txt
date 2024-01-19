@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+reuify 
 
-Template Name: Company
-Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Wesite for business management
+
+IT SERVICE AND SOFTWARE 
