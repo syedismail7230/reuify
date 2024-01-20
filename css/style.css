@@ -2250,3 +2250,74 @@ section {
 .container {
   text-align: center;
 }
+
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Carousel Styles */
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.carousel-content {
+  text-align: center;
+  color: #fff;
+}
+
+.btn-get-started {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+/* List Group Styles */
+.list-group-horizontal {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.list-group-item {
+  border: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+/* Additional Styles for Buttons Inside List Group */
+.list-group-item button {
+  color: #1bbd36;
+}
+
+/* Hover Effect for Buttons */
+.list-group-item button:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: auto;
+  }
+}
