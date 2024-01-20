@@ -2251,7 +2251,6 @@ section {
   text-align: center;
 }
 
-
 /* Global Styles */
 body {
   margin: 0;
@@ -2295,19 +2294,20 @@ body {
 /* List Group Styles */
 .list-group-horizontal {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
 }
 
 .list-group-item {
   border: none;
-  margin-right: 10px;
+  margin: 5px;
   padding: 10px;
 }
 
 /* Additional Styles for Buttons Inside List Group */
 .list-group-item button {
-  color: #1bbd36;
+  color: #007bff;
 }
 
 /* Hover Effect for Buttons */
@@ -2319,5 +2319,18 @@ body {
 @media (max-width: 768px) {
   .carousel-item {
     height: auto;
+  }
+
+  .btn-get-started {
+    font-size: 14px;
+  }
+
+  .list-group-horizontal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-group-item {
+    margin: 5px 0;
   }
 }
