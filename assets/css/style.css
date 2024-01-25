@@ -2228,30 +2228,29 @@ section {
   text-decoration: none;
 }
 
-/* Flexibility and zoom effect for list-group */
-.list-group.list-group-horizontal {
+.carousel-content .list-group.list-group-horizontal {
   display: flex;
-  flex-wrap: wrap; /* Wrap items if they exceed the container width */
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.list-group.list-group-horizontal .list-group-item {
-  flex: 1; /* Make each list item take equal space */
-  text-align: center; /* Center the text horizontally */
-  padding: 10px; /* Add padding to each item */
+.carousel-content .list-group.list-group-horizontal .list-group-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  display: flex; /* Add this to ensure vertical alignment of content */
+  flex-direction: column; /* Stack content vertically */
 }
 
-.list-group.list-group-horizontal .list-group-item button {
-  width: 100%; /* Make buttons fill the entire width of the list item */
+.carousel-content .list-group.list-group-horizontal .list-group-item button {
+  width: 100%;
 }
 
-.list-group.list-group-horizontal .list-group-item img {
-  max-width: 100%; /* Make images responsive within their containers */
-  height: auto; /* Maintain aspect ratio */
+.carousel-content .list-group.list-group-horizontal .list-group-item img {
+  max-width: 100%;
+  height: auto;
 }
-
-
 
 .container {
   text-align: center;
