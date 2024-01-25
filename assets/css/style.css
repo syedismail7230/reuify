@@ -2266,6 +2266,7 @@ section {
   text-align: center;
   border: 1px solid #ccc; /* Add border around each list-group item */
   border-radius: 5px; /* Add border radius for rounded corners */
+  font-size: 12px;
 }
 
 .carousel-container .list-group.list-group-horizontal .list-group-item button {
