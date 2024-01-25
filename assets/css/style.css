@@ -2228,19 +2228,16 @@ section {
   text-decoration: none;
 }
 
+/* Flexibility and alignment for list-group */
 .carousel-content .list-group.list-group-horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .carousel-content .list-group.list-group-horizontal .list-group-item {
-  flex: 1;
   text-align: center;
   padding: 10px;
-  display: flex; /* Add this to ensure vertical alignment of content */
-  flex-direction: column; /* Stack content vertically */
 }
 
 .carousel-content .list-group.list-group-horizontal .list-group-item button {
