@@ -2228,22 +2228,29 @@ section {
   text-decoration: none;
 }
 
-
-/* Style for the button inside list items */
-.carousel-content .list-group-item button {
-  text-align: center;
-  width: 100%;
-  border: none;
-  padding: 0;
-  background-color: transparent;
-  color: #1bbd36; /* Green text color */
+/* Flexibility and zoom effect for list-group */
+.list-group.list-group-horizontal {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items if they exceed the container width */
+  justify-content: center;
+  align-items: center;
 }
 
-/* Style for the button image */
-.carousel-content .list-group-item button img {
-  max-width: 30px; /* Adjust image size as needed */
-  margin-right: 5px; /* Adjust spacing between image and text */
+.list-group.list-group-horizontal .list-group-item {
+  flex: 1; /* Make each list item take equal space */
+  text-align: center; /* Center the text horizontally */
+  padding: 10px; /* Add padding to each item */
 }
+
+.list-group.list-group-horizontal .list-group-item button {
+  width: 100%; /* Make buttons fill the entire width of the list item */
+}
+
+.list-group.list-group-horizontal .list-group-item img {
+  max-width: 100%; /* Make images responsive within their containers */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 
 .container {
