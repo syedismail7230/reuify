@@ -2252,3 +2252,26 @@ section {
 .container {
   text-align: center;
 }
+
+
+
+/* Style for the button inside list items */
+.carousel-content .list-group-item button {
+  text-align: center;
+  width: 100%;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  color: #1bbd36; /* Green text color */
+}
+
+/* Style for the button image */
+.carousel-content .list-group-item button img {
+  max-width: 30px; /* Adjust image size as needed */
+  margin-right: 5px; /* Adjust spacing between image and text */
+}
+
+
+.container {
+  text-align: center;
+}
