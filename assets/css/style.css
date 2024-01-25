@@ -2253,10 +2253,19 @@ section {
   text-align: center;
 }
 
+.carousel-container .list-group.list-group-horizontal {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap if they exceed container width */
+  justify-content: center;
+}
+
 .carousel-container .list-group.list-group-horizontal .list-group-item {
+  width: calc(25% - 20px); /* Set a width for each list-group item, considering margin */
+  max-width: 200px; /* Set a maximum width for responsiveness */
+  margin: 10px; /* Add margin for spacing between items */
+  text-align: center;
   border: 1px solid #ccc; /* Add border around each list-group item */
   border-radius: 5px; /* Add border radius for rounded corners */
-  margin: 10px; /* Add margin for spacing between items */
 }
 
 .carousel-container .list-group.list-group-horizontal .list-group-item button {
@@ -2270,7 +2279,6 @@ section {
   max-width: 100%;
   height: auto;
 }
-
 
 /* Style for the button inside list items */
 .carousel-content .list-group-item button {
