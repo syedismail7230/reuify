@@ -2228,58 +2228,6 @@ section {
   text-decoration: none;
 }
 
-/* Flexibility and alignment for list-group */
-.carousel-content .list-group.list-group-horizontal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel-content .list-group.list-group-horizontal .list-group-item {
-  text-align: center;
-  padding: 10px;
-}
-
-.carousel-content .list-group.list-group-horizontal .list-group-item button {
-  width: 100%;
-}
-
-.carousel-content .list-group.list-group-horizontal .list-group-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  text-align: center;
-}
-
-.carousel-container .list-group.list-group-horizontal {
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap if they exceed container width */
-  justify-content: center;
-}
-
-.carousel-container .list-group.list-group-horizontal .list-group-item {
-  width: calc(25% - 20px); /* Set a width for each list-group item, considering margin */
-  max-width: 200px; /* Set a maximum width for responsiveness */
-  margin: 10px; /* Add margin for spacing between items */
-  text-align: center;
-  border: 1px solid #ccc; /* Add border around each list-group item */
-  border-radius: 5px; /* Add border radius for rounded corners */
-  font-size: 8px;
-}
-
-.carousel-container .list-group.list-group-horizontal .list-group-item button {
-  width: 100%;
-  padding: 10px; /* Add padding to buttons */
-  background-color: #fff; /* Set background color for buttons */
-  border: none; /* Remove button borders */
-}
-
-.carousel-container .list-group.list-group-horizontal .list-group-item img {
-  max-width: 100%;
-  height: auto;
-}
 
 /* Style for the button inside list items */
 .carousel-content .list-group-item button {
