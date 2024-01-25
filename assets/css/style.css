@@ -2243,6 +2243,7 @@ section {
 .carousel-content .list-group-item button img {
   max-width: 30px; /* Adjust image size as needed */
   margin-right: 5px; /* Adjust spacing between image and text */
+  width: calc(25% - 20px);
 }
 
 
