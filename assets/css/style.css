@@ -2253,6 +2253,23 @@ section {
   text-align: center;
 }
 
+.carousel-container .list-group.list-group-horizontal .list-group-item {
+  border: 1px solid #ccc; /* Add border around each list-group item */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin: 10px; /* Add margin for spacing between items */
+}
+
+.carousel-container .list-group.list-group-horizontal .list-group-item button {
+  width: 100%;
+  padding: 10px; /* Add padding to buttons */
+  background-color: #fff; /* Set background color for buttons */
+  border: none; /* Remove button borders */
+}
+
+.carousel-container .list-group.list-group-horizontal .list-group-item img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* Style for the button inside list items */
