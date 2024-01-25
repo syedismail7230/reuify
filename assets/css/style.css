@@ -2246,7 +2246,7 @@ section {
 
 .carousel-content .list-group.list-group-horizontal .list-group-item img {
   max-width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 .container {
