@@ -959,13 +959,14 @@ section {
   border-bottom: 1px solid #ececec;
   overflow: hidden;
   background: #fff;
-  height: 10px;
+  height: 90px;
 }
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
   height: 200px;
   display: flex;
+  height: 80px;
 
 }
 
