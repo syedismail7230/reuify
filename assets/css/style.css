@@ -2251,3 +2251,11 @@ section {
 .container {
   text-align: center;
 }
+
+
+.icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  vertical-align: middle; /* Align the icon vertically with text */
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
